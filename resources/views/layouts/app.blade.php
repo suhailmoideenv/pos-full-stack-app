@@ -8,9 +8,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('/storage/logo/Background.jpeg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('https://s3.amazonaws.com/landing.veehive.ai/images/Background.jpeg') }}">
 
-    <title>SI POS</title>
+    <title>TAWA POS</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -159,7 +159,7 @@
             },
             "stripeClasses": [],
             "lengthMenu": [7, 10, 20, 50],
-            "pageLength": 7 
+            "pageLength": 7
         });
     </script>
     <!-- END PAGE LEVEL DATATBLE SCRIPTS -->

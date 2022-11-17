@@ -5,20 +5,20 @@
         <ul class="navbar-item theme-brand flex-row  text-center">
             <li class="nav-item theme-logo">
                 <a href="index-2.html">
-                    <img src="{{ asset('/storage/logo/Background.jpeg') }}" class="navbar-logo" alt="logo" style="border-radius: 50%">
+                    <img src="{{ asset('https://s3.amazonaws.com/landing.veehive.ai/images/Background.jpeg') }}" class="navbar-logo" alt="logo" style="border-radius: 50%">
                 </a>
             </li>
             <li class="nav-item theme-text">
-                <a href="index-2.html" class="nav-link"> SI POS </a>
+                <a href="index-2.html" class="nav-link"> TAWA POS </a>
             </li>
         </ul>
 
         <ul class="navbar-item flex-row ml-md-auto">
 
             <li class="nav-item dropdown user-profile-dropdown">
-                <a href="https://sidevx.stepheninnovations.com/" class="nav-link dropdown-toggle user">
+                <!-- <a href="https://sidevx.stepheninnovations.com/" class="nav-link dropdown-toggle user">
                     <img src="{{ asset('/storage/logo/SIDEVX.png') }}" alt="avatar">
-                </a>
+                </a> -->
                 <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
                     <div class="">
                         <div class="dropdown-item">
